@@ -1,0 +1,16 @@
+#For the command line, `print` is used and You can use "" or '' 
+print('hello world!') 
+print("hello world!")
+
+#You can write multiple statements on a single line by separating them with commas.
+print("Hello!") ; print("Hey!")
+
+#You can write multiple statements on a single line using the end parameter.
+print("Hello!", end=" ")
+print("Hey!")
+
+#Comments can be used to explain Python code; Comments begin with # 
+#This is a comment line.
+
+#also comments begin """ ... """ , and Python ignores them
+"""This is a comment line"""
