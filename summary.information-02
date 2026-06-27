@@ -1,0 +1,18 @@
+#Python allows assigning values ​​to multiple variables in a single line.
+x, y, z = "Apple", "Banana", "Cherry"
+print(x)
+print(y)
+print(z)
+
+#You can assign the same value to multiple variables in a single line
+x = y = z = "strawberry"
+print(x)
+print(y)
+print(z)
+
+#If you have a sequence of values such as a list or a tuple in Python, you can unpack these values ​​into variables.
+fruits = ["apple", "banana", "cherry"]
+x, y, z = fruits
+print(x)
+print(y)
+print(z)
