@@ -1,18 +1,19 @@
-#Python allows assigning values ​​to multiple variables in a single line.
-x, y, z = "Apple", "Banana", "Cherry"
-print(x)
-print(y)
-print(z)
+# ==========================================
+# 2. PYTHON VARIABLES (QUICK INTRODUCTION)
+# ==========================================
+# - In Python, a variable is automatically created the moment you assign a value to it.
+# - You use the single equals sign (=) to create them.
 
-#You can assign the same value to multiple variables in a single line
-x = y = z = "strawberry"
-print(x)
-print(y)
-print(z)
+x = 5
+y = "Hello, World!"
+print(x, y)  # Displays the values stored inside x and y
 
-#If you have a sequence of values such as a list or a tuple in Python, you can unpack these values ​​into variables.
-fruits = ["apple", "banana", "cherry"]
-x, y, z = fruits
-print(x)
-print(y)
-print(z)
+# ==========================================
+# 3. ADVANCED PRINT() METHODS & OUTPUTS
+# ==========================================
+
+# A) Using the `end` Parameter
+# - By default, print() automatically jumps to a new line at the end.
+# - You can change this behavior using `end=" "`. This prints things on the SAME line.
+print("Hello", end=" ")
+print("World!")  # Output: Hello World!
