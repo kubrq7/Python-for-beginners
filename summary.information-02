@@ -9,7 +9,7 @@ y = "Hello, World!"
 print(x, y)  # Displays the values stored inside x and y
 
 # ==========================================
-# 3. ADVANCED PRINT() METHODS & OUTPUTS
+# ADVANCED PRINT() METHODS & OUTPUTS
 # ==========================================
 
 # A) Using the `end` Parameter
