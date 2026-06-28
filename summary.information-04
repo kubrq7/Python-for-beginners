@@ -1,0 +1,14 @@
+# ==========================================
+# 4. CODE COMMENTS IN PYTHON
+# ==========================================
+# Comments are used to explain Python code and make it readable.
+# Comments begin with a hash sign (#), and Python will ignore them.
+
+# This is a standard single-line comment.
+
+"""
+TECHNICAL NOTE: 
+Triple quotes like this are actually multi-line strings, not official comments. 
+However, when left unassigned to a variable, Python processes and ignores them, 
+allowing developers to use them as multi-line notes.
+"""
