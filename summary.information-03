@@ -1,15 +1,16 @@
-#Use it in an if statement
-#Print only if "free" is present:
-txt = "The best things in life are free!"
-if "free" in txt:
-  print("Yes, 'free' is present.")
-#Returns: Yes, 'free' is present.
+# ==========================================
+# 3. ADVANCED PRINT() METHODS & OUTPUTS
+# ==========================================
 
+# A) Using the `end` Parameter
+# - By default, print() automatically jumps to a new line at the end.
+# - You can change this behavior using `end=" "`. This prints things on the SAME line.
+print("Hello", end=" ")
+print("World!")  # Output: Hello World!
 
-
-#Use it in an if statement
-#print only if "expensive" is NOT present:
-txt = "The best things in life are free!"
-if "expensive" not in txt:
-  print("No, 'expensive' is NOT present.")
-#Returns: No, 'expensive' is NOT present.
+# B) Numbers vs Text in Print
+# - Unlike text/strings, we do NOT enclose numbers or mathematical operations in quotation marks.
+print(3)
+print(300)
+print(5 * 2)  # Performs multiplication directly inside print (Output: 10)
+print(7 + 3)  # Performs addition directly inside print (Output: 10)
